@@ -1,0 +1,102 @@
+body {
+  font-family:Arial,sans-serif;
+  background-color:#222B8E ;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 50vh;
+  margin:0;
+  background: url(IMG-20240925-WA0194.jpg);
+  background-position: center;
+  background-size: 1200px;
+}
+.login-container {
+  background-color: blue;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px #D5D028 rgba(0,0,0,0.1);
+  width: 300px;
+  background: transparent;
+  border: 1px solid rgb(red, green, blue);
+  backdrop-filter: blur(5px);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+ 
+}
+
+label{
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  margin: 10px ;
+  border: 10px solid #04CFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: #737126;
+  margin-top: 20px;
+  color: #F3F3F3;
+  border: none;
+  border-radius: 10px;
+  cursor:pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0E39F8;
+  
+}
+dialog {
+  width:calc(100% - 1em);
+  max-width: 400px;
+  border:5px solid #A3A3A3;
+  border-radius:0.5em;
+  text-align: center;
+  padding: 0.8em 1.5em 1em;
+}
+
+dialog h2{
+  margin-bottom: 0.5em;
+  color:#0B0E0B ;
+}
+dialog p{
+  margin-bottom:1.25em ;
+  color:#7E807D;
+  padding: 0 0.5em;
+  font-size: 20px;
+ 
+}
+
+.control{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:1em;
+  margin-bottom: 0.5em;
+  
+}
+
+.control button{ 
+  padding: 0.7em;
+  cursor: pointer;
+  background: #2AC8ED;
+  outline: none;
+  border:1px solid #17CCF7;
+  border-radius: 5px;
+  color: #EEFCFF;
+  font-size: 0.9em;
+}
+.control button.IYA.btn{
+  background: transparent;
+  color: #31CCF1;
+}
